@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/chris-tour/static/css/main.d91c49a0.css",
-    "main.js": "/chris-tour/static/js/main.3847466b.js",
+    "main.css": "/chris-tour/static/css/main.0e7342d0.css",
+    "main.js": "/chris-tour/static/js/main.5e8a91b6.js",
     "static/media/bgVideo.mp4": "/chris-tour/static/media/bgVideo.bb9ced1bb519783b651f.mp4",
     "static/media/img7.png": "/chris-tour/static/media/img7.f95b61a19052e2cab419.png",
     "static/media/img4.jpg": "/chris-tour/static/media/img4.deced61af0a4aa767a0a.jpg",
@@ -12,11 +12,11 @@
     "static/media/img5.jpg": "/chris-tour/static/media/img5.9cf0549fcaadd504497c.jpg",
     "static/media/chrisDev-logo.png": "/chris-tour/static/media/chrisDev-logo.43cb9440f7d871032b4a.png",
     "index.html": "/chris-tour/index.html",
-    "main.d91c49a0.css.map": "/chris-tour/static/css/main.d91c49a0.css.map",
-    "main.3847466b.js.map": "/chris-tour/static/js/main.3847466b.js.map"
+    "main.0e7342d0.css.map": "/chris-tour/static/css/main.0e7342d0.css.map",
+    "main.5e8a91b6.js.map": "/chris-tour/static/js/main.5e8a91b6.js.map"
   },
   "entrypoints": [
-    "static/css/main.d91c49a0.css",
-    "static/js/main.3847466b.js"
+    "static/css/main.0e7342d0.css",
+    "static/js/main.5e8a91b6.js"
   ]
 }
