@@ -1,5 +1,5 @@
 {
-  "homepage": "http://chris321-dev.github.io/travel-tour",
+  "homepage": "http://chris321-dev.github.io/chris-tour",
   "name": "travel-booking-site",
   "version": "0.1.0",
   "private": true,
@@ -43,6 +43,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-transform-private-property-in-object": "^7.24.7",
     "gh-pages": "^6.1.1"
   }
 }
