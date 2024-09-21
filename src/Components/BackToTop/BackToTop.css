@@ -1,0 +1,23 @@
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+  
+
+.back-to-top-btn {
+    background-color: #333;
+    color: #19a1e6;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 24px;
+    opacity: 0.7;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .back-to-top-btn:hover {
+    opacity: 1;
+  }

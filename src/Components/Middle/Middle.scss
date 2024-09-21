@@ -1,0 +1,93 @@
+@import url('https://font.googleapis.com/css2?family=Montserrat:wght@200;400;500;700;900$display=swap');
+
+// All project colors
+:root {
+    --primaryColor: hsl(200, 80%, 50%);
+    --primaryColorLight: hsl(42, 80%, 70%);
+    --bgColor: hsl(0, 0%, 100%);
+    --formColor: hsl(20, 42%, 87%);
+    --whiteColor: hsl(0, 0%, 100%);
+    --blackColor: hsl(0, 0%, 18%);
+    --greyColor: hsl(0, 0%, 51%);
+    --inputColor: hsl(330, 12%, 97%);
+    --cardColor: hsl(300, 3%, 94%);
+
+    // Font and Topography
+    --biggestFontSize: 2.5rem;
+    --h1FontSize: 1.6rem;
+    --h2FontSize: 1.25rem;
+    --h3FontSize: 1rem;
+    --normalFontSize: 0.938rem;
+    --smallFontSize: 0.813rem;
+    --smallestFontSize: 0.75rem;
+    --borderRadius: 3rem;
+}
+
+.middle {
+    width: 100%;
+
+    .secContainer {
+        .grid {
+            padding: 3rem 3rem 1rem;
+            border-radius: var(--borderRadius);
+            background: var(--primaryColorLight);
+            justify-content: center;
+            margin: auto;
+            gap: 2rem;
+
+            span {
+                justify-content: center;
+                gap: .5rem;
+
+                h1 {
+                    font-size: var(--h1FontSize);
+                    font-weight: 700;
+                    color: var(--blackColor);
+                }
+
+                p {
+                    opacity: .8;
+                    max-width: 80px;
+
+                }
+            }
+        }
+    }
+}
+
+
+//Media Queries
+@media (min-width: 480px) {
+    .middle {
+        .secContainer {
+            .grid {
+                grid-template-columns: repeat(2,1fr);
+
+            }
+        }
+    }
+}
+
+
+@media (min-width: 640px) {
+    .middle {
+        .secContainer {
+            .grid {
+                grid-template-columns: repeat(3,1fr);
+
+            }
+        }
+    }
+}
+
+
+@media (min-width: 800px) {
+    .middle {
+        .secContainer {
+            .grid {
+                grid-template-columns: repeat(4,1fr);
+
+            }
+        }
+    }
+}   
